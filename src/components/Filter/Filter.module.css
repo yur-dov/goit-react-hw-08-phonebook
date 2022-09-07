@@ -1,0 +1,18 @@
+.label {
+  font-size: 24px;
+}
+
+.input {
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}

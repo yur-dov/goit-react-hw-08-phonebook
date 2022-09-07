@@ -1,0 +1,30 @@
+.item {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 22px;
+  margin-right: 25px;
+}
+
+.button {
+  margin-left: 20px;
+}
+
+.contactContainer {
+  margin-left: 20px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
