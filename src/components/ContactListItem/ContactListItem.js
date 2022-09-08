@@ -64,12 +64,12 @@ const ContactListItem = ({ id, name, number, loader, handleShowModal }) => {
     );
 };
 
-// ContactListItem.propTypes = {
-//     id: PropTypes.string.isRequired,
-//     name: PropTypes.string.isRequired,
-//     number: PropTypes.string.isRequired,
-//     loader: PropTypes.bool.isRequired,
-//     handleShowModal: PropTypes.func.isRequired,
-// };
+ContactListItem.propTypes = {
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    number: PropTypes.string.isRequired,
+    loader: PropTypes.bool.isRequired,
+    handleShowModal: PropTypes.func.isRequired,
+};
 
 export default ContactListItem;
